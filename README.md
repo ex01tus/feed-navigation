@@ -1,6 +1,6 @@
 # Feed with cursor navigation
 
-![](https://img.shields.io/badge/kotlin-Test%20Assignment-important?style=for-the-badge&logo=kotlin)
+![Kotlin Test Assignment](https://img.shields.io/badge/kotlin-Test%20Assignment-important?style=for-the-badge&logo=kotlin)
 
 We have a feed of 10000 string elements saved in an ordered set in Redis.
 
@@ -17,9 +17,11 @@ Good luck!
 
 ### Feed beginning
 
-```json
+```
 GET /feed?limit=3
+```
 
+```json
 {
     "items": [
         "first",
@@ -39,9 +41,11 @@ GET /feed?limit=3
 
 Passing `.navigation.next` as a `next` GET-parameter to scroll forward. Similarly, use `prev` to scroll backwards.
 
-```json
+```
 GET /feed?limit=3&next=3
+```
 
+```json
 {
     "items": [
         "fourth",
@@ -59,9 +63,11 @@ GET /feed?limit=3&next=3
 
 ### Feed end
 
-```json
+```
 GET /feed?limit=3&next=9999
+```
 
+```json
 {
     "items": [
         "last"
