@@ -7,7 +7,7 @@ We have a feed of 10000 string elements saved in an ordered set in Redis.
 Implement a service, allowing to get a part of the feed and to navigate it using cursors.
 Service responses should also include flags to determine if the previous and/or the next part exists.
 
-Please, use embedded Redis and generate test data on the start on an application.
+Please, use embedded Redis and generate test data on the start of an application.
 
 Do NOT use Spring pagination mechanism. We're interested in you implementing it from scratch.
 
