@@ -1,0 +1,11 @@
+### Get first 10 values
+GET http://localhost:8080/feed?limit=10
+
+### Get next 10 values
+GET http://localhost:8080/feed?limit=10&next=10
+
+### Get previous 10 values
+GET http://localhost:8080/feed?limit=10&previous=9
+
+### Get last 10 values
+GET http://localhost:8080/feed?limit=10&next=9990
