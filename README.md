@@ -1,4 +1,4 @@
-# Feed with cursor navigation
+# Feed With Cursor Navigation
 
 ![Kotlin Test Assignment](https://img.shields.io/badge/kotlin-Test%20Assignment-important?style=for-the-badge&logo=kotlin)
 
